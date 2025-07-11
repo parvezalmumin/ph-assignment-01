@@ -54,3 +54,32 @@ body {
   transition: all 0.3s ease;
 }
 
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+  background-color: #f4f5ff;
+}
+
+.action-text {
+  max-width: 50%;
+}
+
+.action-text h2 {
+  font-size: 24px;
+  color: #1F1F38;
+  margin-bottom: 10px;
+}
+
+.action-text p {
+  color: #555;
+  margin-bottom: 20px;
+  max-width: 80%;
+}
+
+.action-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+}
