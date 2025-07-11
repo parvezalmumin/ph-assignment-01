@@ -9,7 +9,12 @@ body {
   background-color: #f4f5ff;
 }
 
-
+.header-bg {
+  background: url('E:/Jhankar MahbuB !/assignmet 1/B12A01-landing-launchpad/Assets/Hero-bg.png') no-repeat center/cover;
+  /* 🔁 Replace above with your background image path */
+  color: white;
+  padding-bottom: 60px;
+}
 
 .navbar {
   display: flex;
