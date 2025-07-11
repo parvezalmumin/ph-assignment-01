@@ -83,3 +83,37 @@ body {
   max-width: 400px;
   border-radius: 12px;
 }
+
+
+.productive-users {
+  background-color: #e6eaff;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 12px;
+  margin: 40px 60px;
+}
+
+.productive-users h2 {
+  font-size: 22px;
+  margin-bottom: 40px;
+  color: #1F1F38;
+}
+
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.stat h3 {
+  font-size: 32px;
+  color: #3B49DF;
+}
+
+.stat p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
