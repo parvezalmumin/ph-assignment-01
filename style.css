@@ -25,6 +25,19 @@ body {
   color: #3B49DF;
 }
 
+.banner {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.banner h1 {
+  font-size: 36px;
+  color: #1F1F38;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
 .btn {
   background-color: #3B49DF;
   color: white;
