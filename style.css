@@ -262,3 +262,44 @@ body {
   justify-content: flex-start;  /* 👈 ensures top alignment */
   align-items: flex-start;
 }
+
+/* Footer Section */
+.footer {
+  background-color: #f4f5ff;
+  padding: 60px 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.footer .logo {
+  color: #3B49DF; /* 👈 same as navbar logo */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-subtitle {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #1F1F38;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #3B49DF;
+}
