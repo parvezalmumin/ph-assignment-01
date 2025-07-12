@@ -229,3 +229,36 @@ body {
   border-radius: 20px;
 }
 
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;  /* 👈 make both boxes same height */
+  padding: 80px 60px;
+  gap: 60px;
+}
+
+/* Left: Centered Heading */
+.contact-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 👈 vertically center */
+}
+
+.contact-left h1 {
+  font-size: 36px;
+  color: #1F1F38;
+  line-height: 1.4;
+  text-align: left;
+}
+
+/* Right: Form stays the same */
+.contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: flex-start;  /* 👈 ensures top alignment */
+  align-items: flex-start;
+}
